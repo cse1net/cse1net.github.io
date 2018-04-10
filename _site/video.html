@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Computer Science E-1 | Harvard Extension School</title>
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/e1.css" rel="stylesheet" type="text/css" />
+        <link href="http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400italic" rel="stylesheet" type="text/css">
+        <link href="/assets/css/league-gothic/league-gothic.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 style="margin-top: 10px">COMPUTER SCIENCE E-1</h1>
+        <h2><i>Understanding Computers & the Internet</i></h2>
+
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span6">
+                </div>
+            </div>
+            <div class="row-fluid">
+            <div id="nav" class="span2 well" style="padding: 8px 0">
+                <ul class="nav nav-list">
+                    <li><a href="/">Announcements</a></li>
+                    <li><a href="/exams">Exams</a></li>
+                    <li><a href="/docs/project.pdf">Final Project</a></li>
+                    <li><a href="/lectures">Lectures</a></li>
+                    <li><a href="/psets">Problem Sets</a></li>
+                    <li><a href="/recaps">Recaps</a></li>
+                    <li><a href="/sections">Sections</a></li>
+                    <li><a href="/staff">Staff</a></li>
+                    <li><a href="/syllabus">Syllabus</a></li>
+                </ul>
+            </div>
+                <div id="content" class="span10">
+                    <link href="/assets/lib/video50/build/cs50.video.min.css" rel="stylesheet" type="text/css" />
+<link href="/assets/css/e1.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/assets/lib/video50/js/lib/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/assets/lib/video50/build/cs50.video.min.js"></script>
+
+<script>
+
+$(function() {
+    var qs = (function(a) {
+        if (a == "") return {};
+        var b = {};
+        for (var i = 0; i < a.length; ++i)
+        {
+            var p=a[i].split('=', 2);
+            if (p.length == 1)
+                b[p[0]] = "";
+            else
+                b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+        }
+        return b;
+    })(window.location.search.substr(1).split('&'));
+
+    $.getJSON('http://cdn.computerscience1.net/2013/spring/' + qs.v + '.json', function(options) {
+        options.autostart = true;
+        options.baseUrl = '/assets/lib/video50/';
+        options.defaultVideo = '720p (MP4)';
+        options.playerContainer = '#video';
+
+        var player = new CS50.Video(options);
+    });
+});
+
+</script>
+
+<div class="row-fluid">
+    <div style="width: 720px; margin: 0 auto">
+        <div id="video"></div>
+    </div>
+</div>
+
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-36776830-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+    </body>
+</html>

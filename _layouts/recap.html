@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="/assets/css/recaps/recaps.css">
+        {% if page.css %}
+        <link rel="stylesheet" href="/assets/css/recaps/{{ page.css }}">
+        {% endif %}
+    </head>
+    <body>
+        <div class="container">
+            <div class="row-fluid">
+                <div id="sidebar" class="span2">
+                    <ul id="toc">
+                        <li><a href="/recaps/powerup">Power Up</a></li>
+                        <li><a href="/recaps/binary">Binary, ASCII, and Everything in Bit-ween</a></li>
+                        <li><a href="/recaps/cpu">C-3PU, Human-Processing Relations</a></li>
+                        <li><a href="/recaps/memory">Thanks for the Memory</a></li>
+                        <li><a href="/recaps/internet">Project Interweb: Make it Network</a></li>
+                        <li><a href="/recaps/domains">Eminent Domain Names</a></li>
+                        <li><a href="/recaps/protocols">Protocol Me, Maybe</a></li>
+                        <li><a href="/recaps/email">Snail Mail</a></li>
+                        <li><a href="/recaps/tcpip">Manual Transmission</a></li>
+                        <li><a href="/recaps/graphics">Picture This</a></li>
+                        <li><a href="/recaps/av">A/V Club</a></li>
+                        <li><a href="/recaps/onlinesec">Safety .net</a></li>
+                        <li><a href="/recaps/datasec">Security Blanket</a></li>
+                        <li><a href="/recaps/privacy">Private Eye</a></li>
+                        <li><a href="/recaps/design">School of Design</a></li>
+                        <li><a href="/recaps/html">A Web of Development</a></li>
+                        <li><a href="/recaps/programming">Tonight's Programming</a></li>
+                    </ul>
+                </div>
+                <div id="main" class="span10">
+                    <div class="page-header">
+                        <h1>Chapter {{ page.chapter }} <small>{{ page.title }}</small></h1>
+                    </div>
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

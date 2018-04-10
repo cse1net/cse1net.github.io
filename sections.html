@@ -1,0 +1,22 @@
+---
+layout: default
+permalink: /sections
+---
+
+<div class="row-fluid">
+    <h3>Sections</h3>
+    <ul id="lectures">
+        {% for section in site.data.sections %}
+            <li>
+                <h4>Week {{ section.week }}</h4>
+                <ul>
+                    {% for video in section.videos %}
+                        <li>
+                            <a href="/video?v=sections/{{ section.week }}/{{ video.file }}/{{ video.file }}">{{ video.title }} ({{ video.author }})</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

@@ -1,0 +1,120 @@
+- title: Hardware
+  topics: ASCII. BIOS. Binary. Booting. Motherboards. Peripherals.
+  youtube: "http://www.youtube.com/watch?v=Q2mOfJSG7rc"
+  deck: "https://speakerdeck.com/tmacwill/csci-e-1-spring-2013-lecture-1"
+  recaps:
+    - title: Power Up
+      chapter: 1-powerup
+    - title: Binary, ASCII, and Everything in Bit-ween
+      chapter: 2-binary
+  references:
+    - title: "First Look: iPhone 5"
+      url: "http://www.youtube.com/watch?v=rdIWKytq_q4"
+    - title: HDMI Cables
+      url: "http://www.mint.com/blog/trends/the-rip1"
+
+- title: Hardware, continued
+  topics: Caching. CPUs. Hard disk drives. Parallelism. Pipelining. RAM. Registers. Solid-state drives.
+  youtube: "http://www.youtube.com/watch?v=pbJ_U9O5nmo"
+  deck: "https://speakerdeck.com/tmacwill/lecture-2-csci-e-1-spring-2013"
+  recaps:
+    - title: C-3PU, Human-Processing Relations
+      chapter: 3-cpu
+    - title: Thanks for the Memory
+      chapter: 4-memory
+  references:
+    - title: Inside a Hard Disk Drive
+      url: "http://www.youtube.com/watch?v=kdmLvl1n82U"
+    - title: HDD vs. SSD Comparison
+      url: "http://www.youtube.com/watch?v=j84eEjP-RL4"
+    - title: The Megahertz Myth
+      url: "http://www.youtube.com/watch?v=PKF9GOE2q38"
+
+- title: Internet
+  topics: APIs. DHCP. IP Addresses. IPv6. NAT. Networks. Net Neutrality. Routing. URLs. Wi-Fi.
+  youtube: "http://www.youtube.com/watch?v=ceNymKd71yg"
+  deck: "https://speakerdeck.com/tmacwill/lecture-3-csci-e-1-spring-2013"
+  recaps:
+    - title: "Project Interweb: Make it Network"
+      chapter: 6-internet
+    - title: Eminent Domain Names
+      chapter: 7-domains
+  references:
+    - title: Cyberguardians Hold Keys to the Internet
+      url: "http://www.popsci.com/technology/article/2010-07/order-seven-cyber-guardians-around-world-now-hold-keys-internet"
+    - title: DNS Lookup
+      url: "http://www.simpledns.com/lookup-dg.aspx"
+    - title: Facebook API Explorer
+      url: "https://developers.facebook.com/tools/explorer/"
+    - title: gTLD Results
+      url: "https://gtldresult.icann.org/application-result/applicationstatus/viewstatus"
+    - title: HP Offers that Cloud Thing
+      url: "http://www.youtube.com/watch?v=9ntPxdWAWq8"
+    - title: IPv6 Exhaustion
+      url: "http://samsclass.info/ipv6/exhaustion.htm"
+    - title: Map of IP Addresses
+      url: "http://xkcd.com/195/"
+    - title: World IPv6 Day
+      url: "http://www.worldipv6launch.org/"
+
+- title: Internet, continued
+  topics: HTTP. IMAP. IP. Protocols. POP3. Reliable Data Transfer. SMTP. TCP.
+  youtube: "http://www.youtube.com/watch?v=3motf4wqHLI"
+  deck: "https://speakerdeck.com/tmacwill/lecture-4-csci-e-1-spring-2013"
+  recaps:
+    - title: Protocol Me, Maybe
+      chapter: 9-protocols
+    - title: Snail Mail
+      chapter: 10-email
+    - title: Manual Transmission
+      chapter: 11-tcpip
+  references:
+    - title: Base64 Encoder/Decoder
+      url: "http://www.base64encode.org/"
+    - title: Google Data Centers
+      url: "http://www.google.com/about/datacenters/"
+    - title: Know Your Meme
+      url: "http://knowyourmeme.com"
+    - title: Warriors of the Net
+      url: "http://www.youtube.com/watch?v=Ve7_4ot-Dzs"
+
+- title: Multimedia
+  topics: Bitmaps. Colors. Compression. GPUs. Seam Carving. Sound. Wireframes. Vector Graphics. Video.
+  youtube: "http://www.youtube.com/watch?v=-R2uBgcw600"
+  deck: "https://speakerdeck.com/tmacwill/lecture-5-csci-e-1-spring-2013"
+  recaps:
+    - title: Picture This
+      chapter: 12-graphics
+    - title: A/V Club
+      chapter: 13-av
+
+- title: Security
+  topics: CSRF. Cryptography. Databases. HTTP. Injections. Sessions. XSS.
+  youtube: "https://www.youtube.com/watch?v=Y7EsGRiJ8to"
+  deck: "https://speakerdeck.com/tmacwill/lecture-6-csci-e-1-spring-2013"
+  recaps:
+    - title: Safety .net
+      chapter: 14-onlinesec
+    - title: Security Blanket
+      chapter: 15-datasec
+
+- title: Privacy and Design
+  topics: Analytics. Authentication. Authorization. Cookies. Cyberlaw. Design Principles. Logs. Piracy. Usability Heuristics.
+  youtube: "https://www.youtube.com/watch?v=jcil3HmnwnM"
+  deck: "https://speakerdeck.com/tmacwill/lecture-7-csci-e-1-spring-2013"
+  recaps:
+    - title: Private Eye
+      chapter: 16-privacy
+    - title: Design School
+      chapter: 17-design
+
+- title: Web Development
+  topics: CSS. HTML.
+  youtube: "https://www.youtube.com/watch?v=WYC-7_3qCeE"
+  deck: "https://speakerdeck.com/tmacwill/lecture-8-csci-e-1-spring-2013"
+  examples: lecture8.zip
+
+- title: Programming
+  topics: Arrays. Boolean expressions. Conditions. Loops. Javascript. Scratch. Variables.
+  deck: "https://speakerdeck.com/tmacwill/lecture-9-csci-e-1-spring-2013"
+  examples: lecture9.zip

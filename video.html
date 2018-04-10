@@ -1,0 +1,44 @@
+---
+layout: default
+permalink: /video
+---
+
+<link href="/assets/lib/video50/build/cs50.video.min.css" rel="stylesheet" type="text/css" />
+<link href="/assets/css/e1.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/assets/lib/video50/js/lib/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/assets/lib/video50/build/cs50.video.min.js"></script>
+
+<script>
+
+$(function() {
+    var qs = (function(a) {
+        if (a == "") return {};
+        var b = {};
+        for (var i = 0; i < a.length; ++i)
+        {
+            var p=a[i].split('=', 2);
+            if (p.length == 1)
+                b[p[0]] = "";
+            else
+                b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+        }
+        return b;
+    })(window.location.search.substr(1).split('&'));
+
+    $.getJSON('http://cdn.computerscience1.net/2013/spring/' + qs.v + '.json', function(options) {
+        options.autostart = true;
+        options.baseUrl = '/assets/lib/video50/';
+        options.defaultVideo = '720p (MP4)';
+        options.playerContainer = '#video';
+
+        var player = new CS50.Video(options);
+    });
+});
+
+</script>
+
+<div class="row-fluid">
+    <div style="width: 720px; margin: 0 auto">
+        <div id="video"></div>
+    </div>
+</div>

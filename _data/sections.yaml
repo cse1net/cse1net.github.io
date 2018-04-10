@@ -1,0 +1,98 @@
+- week: 2
+  videos:
+    - title: Binary and Bitwise Operators
+      author: R.J.
+      file: binary_and_bitwise_operators
+    - title: Purchasing Laptops and Desktops
+      author: Ben
+      file: purchasing_laptops_and_desktops
+    - title: Disassembling a Computer
+      author: Ben and R.J.
+      file: disassembling_a_computer
+
+- week: 3
+  videos:
+    - title: Crimping an Ethernet Cable
+      author: Ben and R.J.
+      file: crimping_ethernet_cable
+    - title: Home Networking
+      author: Ben
+      file: home_networking
+    - title: Topics From Discuss
+      author: Ben and R.J.
+      file: topics_from_discuss_week_3
+    - title: Troubleshooting Your Internet Connection
+      author: R.J.
+      file: troubleshooting_your_internet_connection
+
+- week: 4
+  videos:
+    - title: Buying a Domain Name
+      author: Ben
+      file: buying_a_domain_name
+    - title: Discussing Web Browsers
+      author: Ben and R.J.
+      file: discussing_web_browsers
+    - title: TCP/IP Packet Sniffing
+      author: R.J.
+      file: tcp_ip_packet_sniffing
+
+- week: 5
+  videos:
+    - title: Introduction
+      author: Ben and R.J.
+      file: intro_to_week5_sections
+    - title: Audio Remixing in Garageband and Audacity
+      author: R.J.
+      file: audio_remixing_in_garageband_and_audacity
+    - title: Photo Editing in Photoshop and GIMP
+      author: Ben
+      file: photo_editing_in_photoshop_and_gimp
+    - title: Video Editing in iMovie
+      author: R.J.
+      file: video_editing_in_imovie
+
+- week: 6
+  videos:
+    - title: Computer Viruses
+      author: Ben
+      file: computer_viruses
+    - title: Topics From Discuss
+      author: Ben and R.J.
+      file: topics_from_discuss_week_6
+    - title: Web Security
+      author: R.J.
+      file: web_security
+
+- week: 7
+  videos:
+    - title: Critiquing Web Designs
+      author: Ben and R.J.
+      file: critiquing_web_design
+    - title: SSH and FTP
+      author: Ben
+      file: ssh_and_ftp
+    - title: Web Privacy with Tor
+      author: R.J.
+      file: web_privacy_with_tor
+
+- week: 8
+  videos:
+    - title: CSS
+      author: Ben
+      file: css
+    - title: HTML
+      author: R.J.
+      file: html
+
+- week: 9
+  videos:
+    - title: Scratch
+      author: R.J.
+      file: scratch
+    - title: Scratch to Javascript
+      author: Ben
+      file: scratch_to_javascript
+    - title: Farewell
+      author: Ben and R.J.
+      file: farewell

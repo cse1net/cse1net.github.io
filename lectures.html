@@ -1,0 +1,53 @@
+---
+layout: default
+permalink: /lectures
+---
+
+<div class="row-fluid">
+    <h3>Lectures</h3>
+    <ul id="lectures">
+        {% for lecture in site.data.lectures %}
+            <li>
+                <h4>Lecture {{ forloop.index }}: {{ lecture.title }} </h4>
+                <i>{{ lecture.topics }}</i>
+                <ul>
+                    <li>
+                        <a href="/video?v=lectures/{{ forloop.index }}/lecture{{ forloop.index }}">Video</a>
+                        {% if lecture.youtube %}
+                            (<a href="{{ lecture.youtube }}" target="_blank">YouTube</a>)
+                        {% endif %}
+                    </li>
+                    <li>
+                        <a href="http://cdn.computerscience1.net/2013/spring/lectures/{{ forloop.index }}/lecture{{ forloop.index }}.pdf" target="_blank">Slides</a>
+                        {% if lecture.deck %}
+                            (<a href="{{ lecture.deck }}" target="_blank">SpeakerDeck</a>)
+                        {% endif %}
+                    </li>
+                        {% if lecture.examples %}
+                            <li><a href="http://cdn.computerscience1.net/2013/spring/lectures/{{ forloop.index }}/lecture{{ forloop.index }}.zip" target="_blank">Examples</a></li>
+                        {% endif %}
+                        {% if lecture.recaps %}
+                        <li>
+                            Recaps
+                            <ul>
+                                {% for recap in lecture.recaps %}
+                                    <li><a href="/recaps/{{ recap.chapter }}.html" target="_blank">{{ recap.title }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+                    {% endif %}
+                    {% if lecture.references %}
+                        <li>
+                            References
+                            <ul>
+                                {% for reference in lecture.references %}
+                                    <li><a href="{{ reference.url }}" target="_blank">{{ reference.title }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+                    {% endif %}
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
