@@ -4,9 +4,9 @@
   deck: "https://speakerdeck.com/tmacwill/csci-e-1-spring-2013-lecture-1"
   recaps:
     - title: Power Up
-      chapter: 1-powerup
+      chapter: powerup
     - title: Binary, ASCII, and Everything in Bit-ween
-      chapter: 2-binary
+      chapter: binary
   references:
     - title: "First Look: iPhone 5"
       url: "http://www.youtube.com/watch?v=rdIWKytq_q4"
@@ -19,9 +19,9 @@
   deck: "https://speakerdeck.com/tmacwill/lecture-2-csci-e-1-spring-2013"
   recaps:
     - title: C-3PU, Human-Processing Relations
-      chapter: 3-cpu
+      chapter: cpu
     - title: Thanks for the Memory
-      chapter: 4-memory
+      chapter: memory
   references:
     - title: Inside a Hard Disk Drive
       url: "http://www.youtube.com/watch?v=kdmLvl1n82U"
@@ -36,9 +36,9 @@
   deck: "https://speakerdeck.com/tmacwill/lecture-3-csci-e-1-spring-2013"
   recaps:
     - title: "Project Interweb: Make it Network"
-      chapter: 6-internet
+      chapter: internet
     - title: Eminent Domain Names
-      chapter: 7-domains
+      chapter: domains
   references:
     - title: Cyberguardians Hold Keys to the Internet
       url: "http://www.popsci.com/technology/article/2010-07/order-seven-cyber-guardians-around-world-now-hold-keys-internet"
@@ -63,11 +63,11 @@
   deck: "https://speakerdeck.com/tmacwill/lecture-4-csci-e-1-spring-2013"
   recaps:
     - title: Protocol Me, Maybe
-      chapter: 9-protocols
+      chapter: protocols
     - title: Snail Mail
-      chapter: 10-email
+      chapter: email
     - title: Manual Transmission
-      chapter: 11-tcpip
+      chapter: tcpip
   references:
     - title: Base64 Encoder/Decoder
       url: "http://www.base64encode.org/"
@@ -84,9 +84,9 @@
   deck: "https://speakerdeck.com/tmacwill/lecture-5-csci-e-1-spring-2013"
   recaps:
     - title: Picture This
-      chapter: 12-graphics
+      chapter: graphics
     - title: A/V Club
-      chapter: 13-av
+      chapter: av
 
 - title: Security
   topics: CSRF. Cryptography. Databases. HTTP. Injections. Sessions. XSS.
@@ -94,9 +94,9 @@
   deck: "https://speakerdeck.com/tmacwill/lecture-6-csci-e-1-spring-2013"
   recaps:
     - title: Safety .net
-      chapter: 14-onlinesec
+      chapter: onlinesec
     - title: Security Blanket
-      chapter: 15-datasec
+      chapter: datasec
 
 - title: Privacy and Design
   topics: Analytics. Authentication. Authorization. Cookies. Cyberlaw. Design Principles. Logs. Piracy. Usability Heuristics.
@@ -104,9 +104,9 @@
   deck: "https://speakerdeck.com/tmacwill/lecture-7-csci-e-1-spring-2013"
   recaps:
     - title: Private Eye
-      chapter: 16-privacy
+      chapter: privacy
     - title: Design School
-      chapter: 17-design
+      chapter: design
 
 - title: Web Development
   topics: CSS. HTML.
